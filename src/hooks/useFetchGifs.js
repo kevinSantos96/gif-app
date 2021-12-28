@@ -22,9 +22,7 @@ export const useFetchGifs = ( categoria )=>{
 
         });
           
-
-
-  },[]);
+  },[categoria]);
 //  setTimeout(()=>{
 //      setstate({
 //          data:[1,2,3,4,5,6,],
